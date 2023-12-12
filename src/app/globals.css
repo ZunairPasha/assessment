@@ -17,11 +17,32 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  height: 100vh;
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+table > thead > tr > th {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(158, 155, 155);
+  /* margin-bottom: 10px; */
+}
+table > tbody > tr > td {
+  font-size: 12px;
+  font-weight: 500;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+table > tbody > tr {
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.dummy {
+  content: "";
 }
